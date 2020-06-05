@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dependency provider</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#extended type name#&gt; {
+    typealias &lt;#dependency provider name#&gt; = (&lt;#parameter types#&gt;) -&gt; &lt;#return types#&gt;
+    static func &lt;#dependency provider method name#&gt;(&lt;#dependencies#&gt;) -&gt; &lt;#dependency provider name#&gt; {
+        return {
+            &lt;#dependency provider expression#&gt;
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FDF6A1D5-D805-4206-B7DB-73E21C44B95A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Declares an extension for creating a default provider method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Default dependency provider</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
