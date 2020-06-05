@@ -1,2 +1,2 @@
 # nova-machina
-New machine set. up
+For setting up a new machine.
