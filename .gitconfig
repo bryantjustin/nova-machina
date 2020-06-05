@@ -1,0 +1,24 @@
+[user]
+	name = Bryant Balatbat
+	email = bryant@vimeo.com
+[mergetool]
+	keepBackup = false
+[alias]
+	conflicts = diff --name-only --diff-filter=U
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait $MERGED"
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[hub]
+	host = github.vimeows.com
+[core]
+	edito = vscode
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
