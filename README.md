@@ -21,11 +21,30 @@ export PATH=/opt/homebrew/sbin:$PATH
 brew install cask
 ```
 
+# Install Fira Code
+```bash
+brew tap homebrew/cask-fonts
+brew install font-fira-code
+```
+
+# Install Powerline fonts
+```bash
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
+
 # Install applications
 ```bash
 brew install --cask \
     iterm2 \
     raycast \
+    p4v \
     slack \
     tower \
     zoom \
