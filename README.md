@@ -45,6 +45,7 @@ brew install --cask \
     iterm2 \
     raycast \
     p4v \
+    proxyman \
     slack \
     tower \
     zoom \
