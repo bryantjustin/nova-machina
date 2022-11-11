@@ -42,11 +42,19 @@ rm -rf fonts
 # Install applications
 ```bash
 brew install --cask \
+    cacher \
+    google-chrome \
     iterm2 \
-    raycast \
+    karabiner-elements \
     p4v \
+    paragon-ntfs \
     proxyman \
+    postman \
+    raycast \
     slack \
+    spotify \
+    sublime-text \
     tower \
+    visual-studio \
     zoom \
 ```
