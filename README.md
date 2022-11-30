@@ -43,6 +43,7 @@ rm -rf fonts
 ```bash
 brew install --cask \
     cacher \
+    expressvpn \
     google-chrome \
     iterm2 \
     karabiner-elements \
