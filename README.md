@@ -23,7 +23,7 @@ brew install cask
 
 # Install Fira Code
 ```bash
-brew tap homebrew/cask-fonts
+brew tap homebrew/cask-fonts \
 brew install font-fira-code
 ```
 
