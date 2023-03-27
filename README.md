@@ -11,10 +11,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-2. Edit your .zshrc file and add the following at the bottom.
+2. Copy `.zshrc` from this repository to `~/.zshrc`
 ```bash
-export PATH=/opt/homebrew/bin:$PATH
-export PATH=/opt/homebrew/sbin:$PATH
+cp Downloads/nova-machina/.zshrc ./.zshrc
 ```
 3. Install Cask
 ```bash
@@ -56,6 +55,6 @@ brew install --cask \
     spotify \
     sublime-text \
     tower \
-    visual-studio \
+    visual-studio-code \
     zoom \
 ```
